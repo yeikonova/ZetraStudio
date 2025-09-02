@@ -1,0 +1,135 @@
+2025-08-29 19:51:03 RAW INPUT: {"action":"payment.updated","api_version":"v1","data":{"id":"123608202501"},"date_created":"2021-11-01T02:02:02Z","id":"123456","live_mode":false,"type":"payment","user_id":400524747}
+2025-08-29 19:51:03 JSON DECODED: Array
+(
+    [action] => payment.updated
+    [api_version] => v1
+    [data] => Array
+        (
+            [id] => 123608202501
+        )
+
+    [date_created] => 2021-11-01T02:02:02Z
+    [id] => 123456
+    [live_mode] => 
+    [type] => payment
+    [user_id] => 400524747
+)
+
+2025-08-29 19:51:03 TOPIC: payment, PAYMENT_ID: 123608202501
+2025-08-29 19:51:04 MP RESPONSE [200]: {"accounts_info":null,"acquirer_reconciliation":[],"additional_info":{"ip_address":"186.55.181.97","items":[{"quantity":"1","title":"Cuota mensual gimnasio","unit_price":"5"}],"tracking_id":"platform:v1-whitelabel,so:ALL,type:N/A,security:none"},"authorization_code":"504441","binary_mode":false,"brand_id":null,"build_version":"3.121.0-rc-1","call_for_authorize_id":null,"captured":true,"card":{"bin":"53667000","cardholder":{"identification":{"number":"56381759","type":"CI"},"name":"Yeiko Nova"},"country":"URY","date_created":"2025-08-29T15:36:18.000-04:00","date_last_updated":"2025-08-29T15:36:18.000-04:00","expiration_month":10,"expiration_year":2031,"first_six_digits":"536670","id":null,"last_four_digits":"7765","tags":["prepaid"]},"charges_details":[{"accounts":{"from":"collector","to":"mp"},"amounts":{"original":0.37,"refunded":0},"base_amount":5,"client_id":0,"date_created":"2025-08-29T15:36:18.000-04:00","id":"123608202501-001","last_updated":"2025-08-29T15:36:18.000-04:00","metadata":{"reason":"","source":"rule-engine","source_detail":"processing_fee_charge"},"name":"mercadopago_fee","rate":7.31,"refund_charges":[],"reserve_id":null,"type":"fee"}],"charges_execution_info":{"internal_execution":{"date":"2025-08-29T15:36:18.245-04:00","execution_id":"01K3VN9B0PK24QE7MP07P4C5ZB"}},"collector_id":400524747,"corporation_id":null,"counter_currency":null,"coupon_amount":0,"currency_id":"UYU","date_approved":"2025-08-29T15:36:21.000-04:00","date_created":"2025-08-29T15:36:18.000-04:00","date_last_updated":"2025-08-29T15:36:27.000-04:00","date_of_expiration":null,"deduction_schema":"PROACTIVE_12","description":"Cuota mensual gimnasio","differential_pricing_id":null,"external_reference":"3","fee_details":[{"amount":0.37,"fee_payer":"collector","type":"mercadopago_fee"}],"financing_group":null,"id":123608202501,"installments":1,"integrator_id":null,"issuer_id":"1082","live_mode":true,"marketplace_owner":400524747,"merchant_account_id":null,"merchant_number":null,"metadata":{},"money_release_date":"2025-08-29T15:36:21.000-04:00","money_release_schema":null,"money_release_status":"released","notification_url":"https://zetrauy.shop/mp_webhook.php","operation_type":"regular_payment","order":{"id":"33585990448","type":"mercadopago"},"payer":{"email":"yeikonova17@gmail.com","entity_type":null,"first_name":null,"id":"2045442032","identification":{"number":null,"type":null},"last_name":null,"operator_id":null,"phone":{"number":null,"extension":null,"area_code":null},"type":null},"payment_method":{"data":{"routing_data":{"merchant_account_id":"7720959567444"}},"id":"master","issuer_id":"1082","type":"prepaid_card"},"payment_method_id":"master","payment_type_id":"prepaid_card","platform_id":null,"point_of_interaction":{"application_data":{"name":"checkout-off","operating_system":null,"version":"v2"},"business_info":{"branch":"Merchant Services","sub_unit":"checkout_pro","unit":"online_payments"},"transaction_data":{"e2e_id":null,"ticket_id":"3512"},"type":"CHECKOUT"},"pos_id":null,"processing_mode":"aggregator","refunds":[],"release_info":null,"shipping_amount":0,"sponsor_id":null,"statement_descriptor":"MERPAGO*TWOTHOUSAND","status":"approved","status_detail":"accredited","store_id":null,"tags":null,"taxes_amount":0,"transaction_amount":5,"transaction_amount_refunded":0,"transaction_details":{"acquirer_reference":null,"external_resource_url":null,"financial_institution":null,"installment_amount":5,"net_received_amount":4.63,"overpaid_amount":0,"payable_deferral_period":null,"payment_method_reference_id":"504441","total_paid_amount":5}}
+2025-08-29 19:51:04 STATUS APPROVED, external_reference: 3
+2025-08-29 19:51:04 Pago registrado para alumno 3, pago 123608202501
+2025-08-29 19:51:04 Alumno actualizado a cuota_al_dia: 3
+2025-08-29 19:51:05 WhatsApp enviado a 59893849140
+2025-08-29 22:54:29 RAW INPUT: {"action":"payment.updated","api_version":"v1","data":{"id":"124176702452"},"date_created":"2021-11-01T02:02:02Z","id":"123456","live_mode":false,"type":"payment","user_id":400524747}
+2025-08-29 22:54:29 JSON DECODED: Array
+(
+    [action] => payment.updated
+    [api_version] => v1
+    [data] => Array
+        (
+            [id] => 124176702452
+        )
+
+    [date_created] => 2021-11-01T02:02:02Z
+    [id] => 123456
+    [live_mode] => 
+    [type] => payment
+    [user_id] => 400524747
+)
+
+2025-08-29 22:54:29 TOPIC: payment, PAYMENT_ID: 124176702452
+2025-08-29 22:54:30 MP RESPONSE [200]: {"accounts_info":null,"acquirer_reconciliation":[],"additional_info":{"ip_address":"167.57.180.71","items":[{"quantity":"1","title":"Cuota mensual gimnasio","unit_price":"5"}],"tracking_id":"platform:v1-whitelabel,so:ALL,type:N/A,security:none"},"authorization_code":"562937","binary_mode":false,"brand_id":null,"build_version":"3.121.0-rc-1","call_for_authorize_id":null,"captured":true,"card":{"bin":"53667000","cardholder":{"identification":{"number":"56381759","type":"CI"},"name":"yeiko nova "},"country":"URY","date_created":"2025-08-29T18:53:03.000-04:00","date_last_updated":"2025-08-29T18:53:03.000-04:00","expiration_month":10,"expiration_year":2031,"first_six_digits":"536670","id":null,"last_four_digits":"7765","tags":["prepaid"]},"charges_details":[{"accounts":{"from":"collector","to":"mp"},"amounts":{"original":0.37,"refunded":0},"base_amount":5,"client_id":0,"date_created":"2025-08-29T18:53:03.000-04:00","id":"124176702452-001","last_updated":"2025-08-29T18:53:03.000-04:00","metadata":{"reason":"","source":"rule-engine","source_detail":"processing_fee_charge"},"name":"mercadopago_fee","rate":7.31,"refund_charges":[],"reserve_id":null,"type":"fee"}],"charges_execution_info":{"internal_execution":{"date":"2025-08-29T18:53:03.705-04:00","execution_id":"01K3W0HKSAFJ8ZEFF0WX79GFS6"}},"collector_id":400524747,"corporation_id":null,"counter_currency":null,"coupon_amount":0,"currency_id":"UYU","date_approved":"2025-08-29T18:53:06.000-04:00","date_created":"2025-08-29T18:53:03.000-04:00","date_last_updated":"2025-08-29T18:53:14.000-04:00","date_of_expiration":null,"deduction_schema":"PROACTIVE_12","description":"Cuota mensual gimnasio","differential_pricing_id":null,"external_reference":"4","fee_details":[{"amount":0.37,"fee_payer":"collector","type":"mercadopago_fee"}],"financing_group":null,"id":124176702452,"installments":1,"integrator_id":null,"issuer_id":"1082","live_mode":true,"marketplace_owner":400524747,"merchant_account_id":null,"merchant_number":null,"metadata":{},"money_release_date":"2025-08-29T18:53:06.000-04:00","money_release_schema":null,"money_release_status":"released","notification_url":"https://zetrauy.shop/mp_webhook.php","operation_type":"regular_payment","order":{"id":"33568706945","type":"mercadopago"},"payer":{"email":"yeikonova17@gmail.com","entity_type":null,"first_name":null,"id":"2045442032","identification":{"number":null,"type":null},"last_name":null,"operator_id":null,"phone":{"number":null,"extension":null,"area_code":null},"type":null},"payment_method":{"data":{"routing_data":{"merchant_account_id":"7720959567444"}},"id":"master","issuer_id":"1082","type":"prepaid_card"},"payment_method_id":"master","payment_type_id":"prepaid_card","platform_id":null,"point_of_interaction":{"application_data":{"name":"checkout-off","operating_system":null,"version":"v2"},"business_info":{"branch":"Merchant Services","sub_unit":"checkout_pro","unit":"online_payments"},"transaction_data":{"e2e_id":null,"ticket_id":"4005"},"type":"CHECKOUT"},"pos_id":null,"processing_mode":"aggregator","refunds":[],"release_info":null,"shipping_amount":0,"sponsor_id":null,"statement_descriptor":"MERPAGO*TWOTHOUSAND","status":"approved","status_detail":"accredited","store_id":null,"tags":null,"taxes_amount":0,"transaction_amount":5,"transaction_amount_refunded":0,"transaction_details":{"acquirer_reference":null,"external_resource_url":null,"financial_institution":null,"installment_amount":5,"net_received_amount":4.63,"overpaid_amount":0,"payable_deferral_period":null,"payment_method_reference_id":"562937","total_paid_amount":5}}
+2025-08-29 22:54:30 STATUS APPROVED, external_reference: 4
+2025-08-29 22:54:30 Pago registrado para alumno 4, pago 124176702452
+2025-08-29 22:54:30 Alumno actualizado a cuota_al_dia: 4
+2025-08-29 22:54:30 WhatsApp enviado a 59893849140
+2025-08-30 17:20:08 RAW INPUT: {"action":"payment.updated","api_version":"v1","data":{"id":"123456"},"date_created":"2021-11-01T02:02:02Z","id":"123456","live_mode":false,"type":"payment","user_id":400524747}
+2025-08-30 17:20:08 JSON DECODED: Array
+(
+    [action] => payment.updated
+    [api_version] => v1
+    [data] => Array
+        (
+            [id] => 123456
+        )
+
+    [date_created] => 2021-11-01T02:02:02Z
+    [id] => 123456
+    [live_mode] => 
+    [type] => payment
+    [user_id] => 400524747
+)
+
+2025-08-30 17:20:08 TOPIC: payment, PAYMENT_ID: 123456
+2025-08-30 17:20:08 MP RESPONSE [404]: {"message":"Payment not found","error":"not_found","status":404,"cause":[{"code":2000,"description":"Payment not found","data":"30-08-2025T17:20:08UTC;d9c73068-a96c-47bf-b94d-d999c7d0dccc"}]}
+2025-08-30 17:20:08 Pago no aprobado o no encontrado
+2025-08-30 17:26:01 RAW INPUT: {"action":"payment.updated","api_version":"v1","data":{"id":"124257159542"},"date_created":"2021-11-01T02:02:02Z","id":"123456","live_mode":false,"type":"payment","user_id":400524747}
+2025-08-30 17:26:01 JSON DECODED: Array
+(
+    [action] => payment.updated
+    [api_version] => v1
+    [data] => Array
+        (
+            [id] => 124257159542
+        )
+
+    [date_created] => 2021-11-01T02:02:02Z
+    [id] => 123456
+    [live_mode] => 
+    [type] => payment
+    [user_id] => 400524747
+)
+
+2025-08-30 17:26:01 TOPIC: payment, PAYMENT_ID: 124257159542
+2025-08-30 17:26:01 MP RESPONSE [200]: {"accounts_info":null,"acquirer_reconciliation":[],"additional_info":{"ip_address":"190.134.12.198","items":[{"quantity":"1","title":"Cuota mensual gimnasio","unit_price":"5"}],"tracking_id":"platform:v1-whitelabel,so:ALL,type:N/A,security:none"},"authorization_code":"510585","binary_mode":false,"brand_id":null,"build_version":"3.121.0-rc-1","call_for_authorize_id":null,"captured":true,"card":{"bin":"53667000","cardholder":{"identification":{"number":"56381759","type":"CI"},"name":"yeiko nova "},"country":"URY","date_created":"2025-08-30T13:24:45.000-04:00","date_last_updated":"2025-08-30T13:24:45.000-04:00","expiration_month":10,"expiration_year":2031,"first_six_digits":"536670","id":null,"last_four_digits":"7765","tags":["prepaid"]},"charges_details":[{"accounts":{"from":"collector","to":"mp"},"amounts":{"original":0.37,"refunded":0},"base_amount":5,"client_id":0,"date_created":"2025-08-30T13:24:45.000-04:00","id":"124257159542-001","last_updated":"2025-08-30T13:24:45.000-04:00","metadata":{"reason":"","source":"rule-engine","source_detail":"processing_fee_charge"},"name":"mercadopago_fee","rate":7.31,"refund_charges":[],"reserve_id":null,"type":"fee"}],"charges_execution_info":{"internal_execution":{"date":"2025-08-30T13:24:45.476-04:00","execution_id":"01K3Y0567HFFXQX4W2B20VVEHX"}},"collector_id":400524747,"corporation_id":null,"counter_currency":null,"coupon_amount":0,"currency_id":"UYU","date_approved":"2025-08-30T13:24:48.000-04:00","date_created":"2025-08-30T13:24:45.000-04:00","date_last_updated":"2025-08-30T13:24:54.000-04:00","date_of_expiration":null,"deduction_schema":"PROACTIVE_12","description":"Cuota mensual gimnasio","differential_pricing_id":null,"external_reference":"5","fee_details":[{"amount":0.37,"fee_payer":"collector","type":"mercadopago_fee"}],"financing_group":null,"id":124257159542,"installments":1,"integrator_id":null,"issuer_id":"1082","live_mode":true,"marketplace_owner":400524747,"merchant_account_id":null,"merchant_number":null,"metadata":{},"money_release_date":"2025-08-30T13:24:48.000-04:00","money_release_schema":null,"money_release_status":"released","notification_url":"https://zetrauy.shop/mp_webhook.php","operation_type":"regular_payment","order":{"id":"33586788561","type":"mercadopago"},"payer":{"email":"yeikonova17@gmail.com","entity_type":null,"first_name":null,"id":"2045442032","identification":{"number":null,"type":null},"last_name":null,"operator_id":null,"phone":{"number":null,"extension":null,"area_code":null},"type":null},"payment_method":{"data":{"routing_data":{"merchant_account_id":"7720959567444"}},"id":"master","issuer_id":"1082","type":"prepaid_card"},"payment_method_id":"master","payment_type_id":"prepaid_card","platform_id":null,"point_of_interaction":{"application_data":{"name":"checkout-off","operating_system":null,"version":"v2"},"business_info":{"branch":"Merchant Services","sub_unit":"checkout_pro","unit":"online_payments"},"transaction_data":{"e2e_id":null,"ticket_id":"4663"},"type":"CHECKOUT"},"pos_id":null,"processing_mode":"aggregator","refunds":[],"release_info":null,"shipping_amount":0,"sponsor_id":null,"statement_descriptor":"MERPAGO*TWOTHOUSAND","status":"approved","status_detail":"accredited","store_id":null,"tags":null,"taxes_amount":0,"transaction_amount":5,"transaction_amount_refunded":0,"transaction_details":{"acquirer_reference":null,"external_resource_url":null,"financial_institution":null,"installment_amount":5,"net_received_amount":4.63,"overpaid_amount":0,"payable_deferral_period":null,"payment_method_reference_id":"510585","total_paid_amount":5}}
+2025-08-30 17:26:01 STATUS APPROVED, external_reference: 5
+2025-08-30 17:26:01 Pago registrado para alumno 5, pago 124257159542
+2025-08-30 17:26:01 Alumno actualizado a cuota_al_dia: 5
+2025-08-30 17:26:02 WhatsApp enviado a 59893849140
+2025-08-30 17:35:40 RAW INPUT: {"action":"payment.updated","api_version":"v1","data":{"id":"123456"},"date_created":"2021-11-01T02:02:02Z","id":"123456","live_mode":false,"type":"payment","user_id":400524747}
+2025-08-30 17:35:40 JSON DECODED: Array
+(
+    [action] => payment.updated
+    [api_version] => v1
+    [data] => Array
+        (
+            [id] => 123456
+        )
+
+    [date_created] => 2021-11-01T02:02:02Z
+    [id] => 123456
+    [live_mode] => 
+    [type] => payment
+    [user_id] => 400524747
+)
+
+2025-08-30 17:35:40 TOPIC: payment, PAYMENT_ID: 123456
+2025-08-30 17:35:41 MP RESPONSE [404]: {"message":"Payment not found","error":"not_found","status":404,"cause":[{"code":2000,"description":"Payment not found","data":"30-08-2025T17:35:41UTC;230bb273-c1b2-4229-b276-309305eb55f9"}]}
+2025-08-30 17:35:41 Pago no aprobado o no encontrado
+2025-08-30 17:35:50 RAW INPUT: 
+2025-08-30 17:35:50 JSON DECODED: 
+2025-08-30 17:35:50 No data, early exit
+2025-08-30 17:43:10 RAW INPUT: {"action":"payment.updated","api_version":"v1","data":{"id":"124258765642"},"date_created":"2021-11-01T02:02:02Z","id":"123456","live_mode":false,"type":"payment","user_id":400524747}
+2025-08-30 17:43:10 JSON DECODED: Array
+(
+    [action] => payment.updated
+    [api_version] => v1
+    [data] => Array
+        (
+            [id] => 124258765642
+        )
+
+    [date_created] => 2021-11-01T02:02:02Z
+    [id] => 123456
+    [live_mode] => 
+    [type] => payment
+    [user_id] => 400524747
+)
+
+2025-08-30 17:43:10 TOPIC: payment, PAYMENT_ID: 124258765642
+2025-08-30 17:43:10 MP RESPONSE [200]: {"accounts_info":null,"acquirer_reconciliation":[],"additional_info":{"ip_address":"190.134.12.198","items":[{"quantity":"1","title":"Cuota mensual gimnasio","unit_price":"5"}],"tracking_id":"platform:v1-whitelabel,so:ALL,type:N/A,security:none"},"authorization_code":"598585","binary_mode":false,"brand_id":null,"build_version":"3.121.0-rc-1","call_for_authorize_id":null,"captured":true,"card":{"bin":"53667000","cardholder":{"identification":{"number":"56381759","type":"CI"},"name":"Yeiko Nova"},"country":"URY","date_created":"2025-08-30T13:39:06.000-04:00","date_last_updated":"2025-08-30T13:39:06.000-04:00","expiration_month":10,"expiration_year":2031,"first_six_digits":"536670","id":null,"last_four_digits":"7765","tags":["prepaid"]},"charges_details":[{"accounts":{"from":"collector","to":"mp"},"amounts":{"original":0.37,"refunded":0},"base_amount":5,"client_id":0,"date_created":"2025-08-30T13:39:06.000-04:00","id":"124258765642-001","last_updated":"2025-08-30T13:39:06.000-04:00","metadata":{"reason":"","source":"rule-engine","source_detail":"processing_fee_charge"},"name":"mercadopago_fee","rate":7.31,"refund_charges":[],"reserve_id":null,"type":"fee"}],"charges_execution_info":{"internal_execution":{"date":"2025-08-30T13:39:06.176-04:00","execution_id":"01K3Y0ZERES7RKCDBKFF26RWGD"}},"collector_id":400524747,"corporation_id":null,"counter_currency":null,"coupon_amount":0,"currency_id":"UYU","date_approved":"2025-08-30T13:39:08.000-04:00","date_created":"2025-08-30T13:39:06.000-04:00","date_last_updated":"2025-08-30T13:39:13.000-04:00","date_of_expiration":null,"deduction_schema":"PROACTIVE_12","description":"Cuota mensual gimnasio","differential_pricing_id":null,"external_reference":"6","fee_details":[{"amount":0.37,"fee_payer":"collector","type":"mercadopago_fee"}],"financing_group":null,"id":124258765642,"installments":1,"integrator_id":null,"issuer_id":"1082","live_mode":true,"marketplace_owner":400524747,"merchant_account_id":null,"merchant_number":null,"metadata":{},"money_release_date":"2025-08-30T13:39:08.000-04:00","money_release_schema":null,"money_release_status":"released","notification_url":"https://zetrauy.shop/mp_webhook.php","operation_type":"regular_payment","order":{"id":"33610663400","type":"mercadopago"},"payer":{"email":"yeikonova17@gmail.com","entity_type":null,"first_name":null,"id":"2045442032","identification":{"number":null,"type":null},"last_name":null,"operator_id":null,"phone":{"number":null,"extension":null,"area_code":null},"type":null},"payment_method":{"data":{"routing_data":{"merchant_account_id":"7720959567444"}},"id":"master","issuer_id":"1082","type":"prepaid_card"},"payment_method_id":"master","payment_type_id":"prepaid_card","platform_id":null,"point_of_interaction":{"application_data":{"name":"checkout-off","operating_system":null,"version":"v2"},"business_info":{"branch":"Merchant Services","sub_unit":"checkout_pro","unit":"online_payments"},"transaction_data":{"e2e_id":null,"ticket_id":"5515"},"type":"CHECKOUT"},"pos_id":null,"processing_mode":"aggregator","refunds":[],"release_info":null,"shipping_amount":0,"sponsor_id":null,"statement_descriptor":"MERPAGO*TWOTHOUSAND","status":"approved","status_detail":"accredited","store_id":null,"tags":null,"taxes_amount":0,"transaction_amount":5,"transaction_amount_refunded":0,"transaction_details":{"acquirer_reference":null,"external_resource_url":null,"financial_institution":null,"installment_amount":5,"net_received_amount":4.63,"overpaid_amount":0,"payable_deferral_period":null,"payment_method_reference_id":"598585","total_paid_amount":5}}
+2025-08-30 17:43:10 STATUS APPROVED, external_reference: 6
+2025-08-30 17:43:10 Pago registrado para alumno 6, pago 124258765642
+2025-08-30 17:43:10 Alumno actualizado a cuota_al_dia: 6
+2025-08-30 17:43:11 WhatsApp enviado a 59893849140
